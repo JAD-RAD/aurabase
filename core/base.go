@@ -15,18 +15,18 @@ import (
 
 	"github.com/fatih/color"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/hook"
-	"github.com/pocketbase/pocketbase/tools/logger"
-	"github.com/pocketbase/pocketbase/tools/mailer"
-	"github.com/pocketbase/pocketbase/tools/routine"
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/store"
-	"github.com/pocketbase/pocketbase/tools/subscriptions"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/jadd/aurabase/daos"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/models/settings"
+	"github.com/jadd/aurabase/tools/filesystem"
+	"github.com/jadd/aurabase/tools/hook"
+	"github.com/jadd/aurabase/tools/logger"
+	"github.com/jadd/aurabase/tools/mailer"
+	"github.com/jadd/aurabase/tools/routine"
+	"github.com/jadd/aurabase/tools/security"
+	"github.com/jadd/aurabase/tools/store"
+	"github.com/jadd/aurabase/tools/subscriptions"
+	"github.com/jadd/aurabase/tools/types"
 	"github.com/spf13/cast"
 )
 
@@ -1163,7 +1163,6 @@ func (app *BaseApp) registerDefaultHooks() {
 	app.OnModelAfterDelete().Add(func(e *ModelEvent) error {
 		if m, ok := e.Model.(models.FilesManager); ok && m.BaseFilesPath() != "" {
 			// ensure that there is a trailing slash so that the list iterator could start walking from the prefix
-			// (https://github.com/pocketbase/pocketbase/discussions/5246#discussioncomment-10128955)
 			prefix := strings.TrimRight(m.BaseFilesPath(), "/") + "/"
 
 			// run in the background for "optimistic" delete to avoid

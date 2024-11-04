@@ -2,8 +2,8 @@
 package models
 
 import (
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/jadd/aurabase/tools/security"
+	"github.com/jadd/aurabase/tools/types"
 )
 
 const (

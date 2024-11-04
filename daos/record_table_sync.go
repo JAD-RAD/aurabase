@@ -6,11 +6,11 @@ import (
 	"strings"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/models/schema"
+	"github.com/jadd/aurabase/tools/dbutils"
+	"github.com/jadd/aurabase/tools/security"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/security"
 )
 
 // SyncRecordTableSchema compares the two provided collections

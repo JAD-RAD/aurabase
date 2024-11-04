@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/filesystem"
-	"github.com/pocketbase/pocketbase/tools/list"
+	"github.com/jadd/aurabase/tools/filesystem"
+	"github.com/jadd/aurabase/tools/list"
 )
 
 func TestFormDataAppendAndSet(t *testing.T) {

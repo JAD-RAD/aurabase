@@ -1,7 +1,6 @@
 package core
 
 // -------------------------------------------------------------------
-// This is a small optimization ported from the [ongoing refactoring branch](https://github.com/pocketbase/pocketbase/discussions/4355).
 //
 // @todo remove after the refactoring is finalized.
 // -------------------------------------------------------------------
@@ -9,7 +8,7 @@ package core
 import (
 	"strings"
 
-	"github.com/pocketbase/pocketbase/models"
+	"github.com/jadd/aurabase/models"
 )
 
 const storeCachedCollectionsKey = "@cachedCollectionsContext"

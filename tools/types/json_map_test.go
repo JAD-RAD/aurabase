@@ -4,7 +4,7 @@ import (
 	"database/sql/driver"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/jadd/aurabase/tools/types"
 )
 
 func TestJsonMapMarshalJSON(t *testing.T) {

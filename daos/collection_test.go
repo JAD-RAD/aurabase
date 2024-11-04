@@ -7,12 +7,12 @@ import (
 	"testing"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/jadd/aurabase/daos"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/models/schema"
+	"github.com/jadd/aurabase/tests"
+	"github.com/jadd/aurabase/tools/list"
+	"github.com/jadd/aurabase/tools/types"
 )
 
 func TestCollectionQuery(t *testing.T) {

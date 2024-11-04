@@ -8,15 +8,15 @@ import (
 	"sort"
 	"strings"
 
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/models/schema"
+	"github.com/jadd/aurabase/resolvers"
+	"github.com/jadd/aurabase/tools/inflector"
+	"github.com/jadd/aurabase/tools/list"
+	"github.com/jadd/aurabase/tools/search"
+	"github.com/jadd/aurabase/tools/security"
+	"github.com/jadd/aurabase/tools/types"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/resolvers"
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/search"
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/types"
 	"github.com/spf13/cast"
 )
 

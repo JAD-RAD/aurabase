@@ -4,9 +4,9 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/pocketbase/pocketbase/forms"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tests"
+	"github.com/jadd/aurabase/forms"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/tests"
 )
 
 func TestAdminLoginValidateAndSubmit(t *testing.T) {

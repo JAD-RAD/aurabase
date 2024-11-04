@@ -4,8 +4,8 @@ import (
 	"net/http"
 	"testing"
 
+	"github.com/jadd/aurabase/tests"
 	"github.com/labstack/echo/v5"
-	"github.com/pocketbase/pocketbase/tests"
 )
 
 func TestLogsList(t *testing.T) {

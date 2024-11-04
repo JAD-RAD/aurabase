@@ -6,12 +6,12 @@ import (
 	"runtime"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tools/migrate"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/jadd/aurabase/daos"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/models/schema"
+	"github.com/jadd/aurabase/models/settings"
+	"github.com/jadd/aurabase/tools/migrate"
+	"github.com/jadd/aurabase/tools/types"
 )
 
 var AppMigrations migrate.MigrationsList

@@ -7,13 +7,13 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/models/schema"
+	"github.com/jadd/aurabase/tools/dbutils"
+	"github.com/jadd/aurabase/tools/list"
+	"github.com/jadd/aurabase/tools/security"
+	"github.com/jadd/aurabase/tools/types"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/types"
 )
 
 // MaxExpandDepth specifies the max allowed nested expand depth path.

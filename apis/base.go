@@ -15,9 +15,9 @@ import (
 
 	"github.com/labstack/echo/v5"
 	"github.com/labstack/echo/v5/middleware"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/tools/rest"
-	"github.com/pocketbase/pocketbase/ui"
+	"github.com/jadd/aurabase/core"
+	"github.com/jadd/aurabase/tools/rest"
+	"github.com/jadd/aurabase/ui"
 	"github.com/spf13/cast"
 )
 

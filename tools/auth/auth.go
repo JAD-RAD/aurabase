@@ -5,7 +5,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/jadd/aurabase/tools/types"
 	"golang.org/x/oauth2"
 )
 

@@ -8,13 +8,13 @@ import (
 	"strings"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/search"
-	"github.com/pocketbase/pocketbase/tools/security"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/models/schema"
+	"github.com/jadd/aurabase/tools/dbutils"
+	"github.com/jadd/aurabase/tools/inflector"
+	"github.com/jadd/aurabase/tools/list"
+	"github.com/jadd/aurabase/tools/search"
+	"github.com/jadd/aurabase/tools/security"
 )
 
 // maxNestedRels defines the max allowed nested relations depth.
@@ -464,7 +464,6 @@ func (r *runner) processActiveProps() (*search.ResolverResult, error) {
 
 			// wrap in json_extract to ensure that top-level primitives
 			// stored as json work correctly when compared to their SQL equivalent
-			// (https://github.com/pocketbase/pocketbase/issues/4068)
 			if field.Type == schema.FieldTypeJson {
 				result.NoCoalesce = true
 				result.Identifier = dbutils.JsonExtract(r.activeTableAlias+"."+cleanFieldName, "")

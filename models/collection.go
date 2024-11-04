@@ -5,8 +5,8 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/jadd/aurabase/models/schema"
+	"github.com/jadd/aurabase/tools/types"
 )
 
 var (

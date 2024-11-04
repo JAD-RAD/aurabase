@@ -11,15 +11,15 @@ import (
 	"time"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/migrations/logs"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/logger"
-	"github.com/pocketbase/pocketbase/tools/mailer"
-	"github.com/pocketbase/pocketbase/tools/migrate"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/jadd/aurabase/daos"
+	"github.com/jadd/aurabase/migrations"
+	"github.com/jadd/aurabase/migrations/logs"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/tools/list"
+	"github.com/jadd/aurabase/tools/logger"
+	"github.com/jadd/aurabase/tools/mailer"
+	"github.com/jadd/aurabase/tools/migrate"
+	"github.com/jadd/aurabase/tools/types"
 )
 
 func TestNewBaseApp(t *testing.T) {

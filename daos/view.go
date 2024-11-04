@@ -7,14 +7,14 @@ import (
 	"regexp"
 	"strings"
 
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/models/schema"
+	"github.com/jadd/aurabase/tools/inflector"
+	"github.com/jadd/aurabase/tools/list"
+	"github.com/jadd/aurabase/tools/security"
+	"github.com/jadd/aurabase/tools/tokenizer"
+	"github.com/jadd/aurabase/tools/types"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tools/inflector"
-	"github.com/pocketbase/pocketbase/tools/list"
-	"github.com/pocketbase/pocketbase/tools/security"
-	"github.com/pocketbase/pocketbase/tools/tokenizer"
-	"github.com/pocketbase/pocketbase/tools/types"
 )
 
 // DeleteView drops the specified view name.

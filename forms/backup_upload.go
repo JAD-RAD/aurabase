@@ -4,9 +4,9 @@ import (
 	"context"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/forms/validators"
-	"github.com/pocketbase/pocketbase/tools/filesystem"
+	"github.com/jadd/aurabase/core"
+	"github.com/jadd/aurabase/forms/validators"
+	"github.com/jadd/aurabase/tools/filesystem"
 )
 
 // BackupUpload is a request form for uploading a new app backup.

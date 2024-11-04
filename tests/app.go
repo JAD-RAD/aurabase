@@ -10,11 +10,11 @@ import (
 	"sync"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/migrations"
-	"github.com/pocketbase/pocketbase/migrations/logs"
-	"github.com/pocketbase/pocketbase/tools/mailer"
-	"github.com/pocketbase/pocketbase/tools/migrate"
+	"github.com/jadd/aurabase/core"
+	"github.com/jadd/aurabase/migrations"
+	"github.com/jadd/aurabase/migrations/logs"
+	"github.com/jadd/aurabase/tools/mailer"
+	"github.com/jadd/aurabase/tools/migrate"
 )
 
 // TestApp is a wrapper app instance used for testing.

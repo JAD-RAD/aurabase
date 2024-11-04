@@ -7,7 +7,7 @@ import (
 	"testing"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/forms"
+	"github.com/jadd/aurabase/forms"
 )
 
 func TestRealtimeSubscribeValidate(t *testing.T) {

@@ -3,8 +3,8 @@ package daos
 import (
 	"errors"
 
+	"github.com/jadd/aurabase/models"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
 )
 
 // ExternalAuthQuery returns a new ExternalAuth select query.

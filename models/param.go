@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/jadd/aurabase/tools/types"
 )
 
 var _ Model = (*Param)(nil)

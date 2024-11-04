@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	"github.com/pocketbase/pocketbase/tools/logger"
-	"github.com/pocketbase/pocketbase/tools/store"
+	"github.com/jadd/aurabase/tools/logger"
+	"github.com/jadd/aurabase/tools/store"
 	"github.com/spf13/cast"
 )
 

@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/jadd/aurabase/tools/types"
 )
 
 // Log is similar to [slog.Record] bit contains the log attributes as

@@ -5,10 +5,10 @@ import (
 	"strings"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tools/dbutils"
-	"github.com/pocketbase/pocketbase/tools/list"
+	"github.com/jadd/aurabase/daos"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/tools/dbutils"
+	"github.com/jadd/aurabase/tools/list"
 )
 
 // Adds _collections indexes column (if not already).

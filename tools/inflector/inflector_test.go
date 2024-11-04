@@ -3,7 +3,7 @@ package inflector_test
 import (
 	"testing"
 
-	"github.com/pocketbase/pocketbase/tools/inflector"
+	"github.com/jadd/aurabase/tools/inflector"
 )
 
 func TestUcFirst(t *testing.T) {

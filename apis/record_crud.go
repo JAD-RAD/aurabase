@@ -5,14 +5,14 @@ import (
 	"log/slog"
 	"net/http"
 
+	"github.com/jadd/aurabase/core"
+	"github.com/jadd/aurabase/daos"
+	"github.com/jadd/aurabase/forms"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/resolvers"
+	"github.com/jadd/aurabase/tools/search"
 	"github.com/labstack/echo/v5"
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/forms"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/resolvers"
-	"github.com/pocketbase/pocketbase/tools/search"
 )
 
 // bindRecordCrudApi registers the record crud api endpoints and

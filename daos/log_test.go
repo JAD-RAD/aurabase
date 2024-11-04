@@ -6,9 +6,9 @@ import (
 	"time"
 
 	"github.com/pocketbase/dbx"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/types"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/tests"
+	"github.com/jadd/aurabase/tools/types"
 )
 
 func TestLogQuery(t *testing.T) {

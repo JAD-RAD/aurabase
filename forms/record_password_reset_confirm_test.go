@@ -6,10 +6,10 @@ import (
 	"testing"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/pocketbase/pocketbase/forms"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/security"
+	"github.com/jadd/aurabase/forms"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/tests"
+	"github.com/jadd/aurabase/tools/security"
 )
 
 func TestRecordPasswordResetConfirmValidateAndSubmit(t *testing.T) {

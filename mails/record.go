@@ -4,12 +4,12 @@ import (
 	"html/template"
 	"net/mail"
 
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/mails/templates"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/models/settings"
-	"github.com/pocketbase/pocketbase/tokens"
-	"github.com/pocketbase/pocketbase/tools/mailer"
+	"github.com/jadd/aurabase/core"
+	"github.com/jadd/aurabase/mails/templates"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/models/settings"
+	"github.com/jadd/aurabase/tokens"
+	"github.com/jadd/aurabase/tools/mailer"
 )
 
 // @todo remove after the refactoring

@@ -10,13 +10,13 @@ import (
 	"sync"
 	"testing"
 
+	"github.com/jadd/aurabase/apis"
+	"github.com/jadd/aurabase/core"
+	"github.com/jadd/aurabase/daos"
+	"github.com/jadd/aurabase/models/schema"
+	"github.com/jadd/aurabase/tests"
+	"github.com/jadd/aurabase/tools/types"
 	"github.com/labstack/echo/v5"
-	"github.com/pocketbase/pocketbase/apis"
-	"github.com/pocketbase/pocketbase/core"
-	"github.com/pocketbase/pocketbase/daos"
-	"github.com/pocketbase/pocketbase/models/schema"
-	"github.com/pocketbase/pocketbase/tests"
-	"github.com/pocketbase/pocketbase/tools/types"
 )
 
 func TestFileToken(t *testing.T) {

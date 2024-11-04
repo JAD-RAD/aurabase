@@ -20,8 +20,8 @@ import (
 	"github.com/aws/aws-sdk-go-v2/service/s3"
 	"github.com/disintegration/imaging"
 	"github.com/gabriel-vasile/mimetype"
-	"github.com/pocketbase/pocketbase/tools/filesystem/internal/s3lite"
-	"github.com/pocketbase/pocketbase/tools/list"
+	"github.com/jadd/aurabase/tools/filesystem/internal/s3lite"
+	"github.com/jadd/aurabase/tools/list"
 	"gocloud.dev/blob"
 	"gocloud.dev/blob/fileblob"
 )

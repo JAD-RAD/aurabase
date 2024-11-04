@@ -3,8 +3,8 @@ package daos_test
 import (
 	"testing"
 
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tests"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/tests"
 )
 
 func TestAdminQuery(t *testing.T) {

@@ -8,9 +8,9 @@ import (
 	"testing"
 
 	"github.com/labstack/echo/v5"
-	"github.com/pocketbase/pocketbase/apis"
-	"github.com/pocketbase/pocketbase/models"
-	"github.com/pocketbase/pocketbase/tests"
+	"github.com/jadd/aurabase/apis"
+	"github.com/jadd/aurabase/models"
+	"github.com/jadd/aurabase/tests"
 )
 
 func TestRequestInfo(t *testing.T) {

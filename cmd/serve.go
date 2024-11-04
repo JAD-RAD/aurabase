@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/pocketbase/pocketbase/apis"
-	"github.com/pocketbase/pocketbase/core"
+	"github.com/jadd/aurabase/apis"
+	"github.com/jadd/aurabase/core"
 	"github.com/spf13/cobra"
 )
 
