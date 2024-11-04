@@ -22,8 +22,8 @@ import (
 
 	"github.com/AlecAivazis/survey/v2"
 	"github.com/fatih/color"
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/tools/archive"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/tools/archive"
 	"github.com/spf13/cobra"
 )
 

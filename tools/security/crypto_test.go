@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/tools/security"
 )
 
 func TestS256Challenge(t *testing.T) {

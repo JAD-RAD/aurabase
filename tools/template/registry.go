@@ -28,7 +28,7 @@ import (
 	"path/filepath"
 	"strings"
 
-	"github.com/jadd/aurabase/tools/store"
+	"github.com/JAD-RAD/aurabase/tools/store"
 )
 
 // NewRegistry creates and initializes a new templates registry with

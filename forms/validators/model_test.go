@@ -3,8 +3,8 @@ package validators_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/forms/validators"
-	"github.com/jadd/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/forms/validators"
+	"github.com/JAD-RAD/aurabase/tests"
 )
 
 func TestUniqueId(t *testing.T) {

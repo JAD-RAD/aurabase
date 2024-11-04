@@ -8,13 +8,13 @@ import (
 	"log/slog"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/models/settings"
-	"github.com/jadd/aurabase/tools/filesystem"
-	"github.com/jadd/aurabase/tools/hook"
-	"github.com/jadd/aurabase/tools/mailer"
-	"github.com/jadd/aurabase/tools/store"
-	"github.com/jadd/aurabase/tools/subscriptions"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/models/settings"
+	"github.com/JAD-RAD/aurabase/tools/filesystem"
+	"github.com/JAD-RAD/aurabase/tools/hook"
+	"github.com/JAD-RAD/aurabase/tools/mailer"
+	"github.com/JAD-RAD/aurabase/tools/store"
+	"github.com/JAD-RAD/aurabase/tools/subscriptions"
 )
 
 // App defines the main PocketBase app interface.

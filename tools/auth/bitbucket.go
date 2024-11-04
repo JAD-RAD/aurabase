@@ -6,7 +6,7 @@ import (
 	"errors"
 	"io"
 
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"golang.org/x/oauth2"
 )
 

@@ -4,10 +4,10 @@ import (
 	"errors"
 	"testing"
 
-	"github.com/jadd/aurabase/forms"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/forms"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tools/security"
 )
 
 func TestAdminPasswordResetConfirmValidateAndSubmit(t *testing.T) {

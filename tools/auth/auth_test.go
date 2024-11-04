@@ -3,7 +3,7 @@ package auth_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/tools/auth"
+	"github.com/JAD-RAD/aurabase/tools/auth"
 )
 
 func TestNewProviderByName(t *testing.T) {

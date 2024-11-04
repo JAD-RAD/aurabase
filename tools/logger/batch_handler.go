@@ -5,7 +5,7 @@ import (
 	"log/slog"
 	"sync"
 
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 var _ slog.Handler = (*BatchHandler)(nil)

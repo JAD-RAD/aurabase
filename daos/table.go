@@ -4,7 +4,7 @@ import (
 	"fmt"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models"
 )
 
 // HasTable checks if a table (or view) with the provided name exists (case insensitive).

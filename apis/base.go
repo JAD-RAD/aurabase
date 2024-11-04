@@ -15,9 +15,9 @@ import (
 
 	"github.com/labstack/echo/v5"
 	"github.com/labstack/echo/v5/middleware"
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/tools/rest"
-	"github.com/jadd/aurabase/ui"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/tools/rest"
+	"github.com/JAD-RAD/aurabase/ui"
 	"github.com/spf13/cast"
 )
 

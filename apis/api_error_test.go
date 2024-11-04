@@ -6,7 +6,7 @@ import (
 	"testing"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/jadd/aurabase/apis"
+	"github.com/JAD-RAD/aurabase/apis"
 )
 
 func TestNewApiErrorWithRawData(t *testing.T) {

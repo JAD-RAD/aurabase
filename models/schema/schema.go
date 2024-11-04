@@ -10,8 +10,8 @@ import (
 	"strings"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/jadd/aurabase/tools/list"
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/security"
 )
 
 // NewSchema creates a new Schema instance with the provided fields.

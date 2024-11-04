@@ -5,7 +5,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jadd/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/list"
 	"github.com/spf13/cast"
 	"golang.org/x/net/html"
 )

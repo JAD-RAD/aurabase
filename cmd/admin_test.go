@@ -3,8 +3,8 @@ package cmd_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/cmd"
-	"github.com/jadd/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/cmd"
+	"github.com/JAD-RAD/aurabase/tests"
 )
 
 func TestAdminCreateCommand(t *testing.T) {

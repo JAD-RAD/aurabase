@@ -3,7 +3,7 @@ package tests
 import (
 	"sync"
 
-	"github.com/jadd/aurabase/tools/mailer"
+	"github.com/JAD-RAD/aurabase/tools/mailer"
 )
 
 var _ mailer.Mailer = (*TestMailer)(nil)

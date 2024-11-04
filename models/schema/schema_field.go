@@ -9,9 +9,9 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
-	"github.com/jadd/aurabase/tools/filesystem"
-	"github.com/jadd/aurabase/tools/list"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/filesystem"
+	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"github.com/spf13/cast"
 )
 

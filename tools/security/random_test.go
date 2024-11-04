@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"testing"
 
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/tools/security"
 )
 
 func TestRandomString(t *testing.T) {

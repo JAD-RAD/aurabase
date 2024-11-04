@@ -4,7 +4,7 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jadd/aurabase/tools/tokenizer"
+	"github.com/JAD-RAD/aurabase/tools/tokenizer"
 )
 
 var (

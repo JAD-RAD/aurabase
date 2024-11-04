@@ -4,7 +4,7 @@ import (
 	"context"
 	"encoding/json"
 
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/microsoft"
 )

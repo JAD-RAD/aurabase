@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/list"
 	_ "modernc.org/sqlite"
 )
 

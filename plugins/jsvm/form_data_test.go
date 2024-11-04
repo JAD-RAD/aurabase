@@ -6,8 +6,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jadd/aurabase/tools/filesystem"
-	"github.com/jadd/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/filesystem"
+	"github.com/JAD-RAD/aurabase/tools/list"
 )
 
 func TestFormDataAppendAndSet(t *testing.T) {

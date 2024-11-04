@@ -10,8 +10,8 @@ import (
 	"testing"
 
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/jadd/aurabase/forms"
-	"github.com/jadd/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/forms"
+	"github.com/JAD-RAD/aurabase/tests"
 )
 
 func TestAppleClientSecretCreateValidateAndSubmit(t *testing.T) {

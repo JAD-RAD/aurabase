@@ -6,7 +6,7 @@ import (
 
 	"github.com/gabriel-vasile/mimetype"
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/jadd/aurabase/tools/filesystem"
+	"github.com/JAD-RAD/aurabase/tools/filesystem"
 )
 
 // UploadedFileSize checks whether the validated `rest.UploadedFile`

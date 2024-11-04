@@ -1,4 +1,4 @@
-module github.com/jadd/aurabase
+module github.com/JAD-RAD/aurabase
 
 go 1.22.0
 

@@ -4,7 +4,7 @@ import (
 	"testing"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/tools/search"
+	"github.com/JAD-RAD/aurabase/tools/search"
 )
 
 func TestSimpleFieldResolverUpdateQuery(t *testing.T) {

@@ -4,8 +4,8 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/jadd/aurabase/tools/list"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 func TestSubtractSliceString(t *testing.T) {

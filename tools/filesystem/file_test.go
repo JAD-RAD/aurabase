@@ -13,8 +13,8 @@ import (
 	"testing"
 
 	"github.com/labstack/echo/v5"
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tools/filesystem"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tools/filesystem"
 )
 
 func TestNewFileFromPath(t *testing.T) {

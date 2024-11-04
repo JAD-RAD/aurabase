@@ -13,8 +13,8 @@ import (
 	"time"
 
 	"github.com/labstack/echo/v5"
-	"github.com/jadd/aurabase/apis"
-	"github.com/jadd/aurabase/core"
+	"github.com/JAD-RAD/aurabase/apis"
+	"github.com/JAD-RAD/aurabase/core"
 )
 
 // ApiScenario defines a single api request test case/scenario.

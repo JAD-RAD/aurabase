@@ -8,7 +8,7 @@ package core
 import (
 	"strings"
 
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models"
 )
 
 const storeCachedCollectionsKey = "@cachedCollectionsContext"

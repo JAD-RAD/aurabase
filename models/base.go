@@ -2,8 +2,8 @@
 package models
 
 import (
-	"github.com/jadd/aurabase/tools/security"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 const (

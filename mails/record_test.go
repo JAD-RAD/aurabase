@@ -4,8 +4,8 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jadd/aurabase/mails"
-	"github.com/jadd/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/mails"
+	"github.com/JAD-RAD/aurabase/tests"
 )
 
 func TestSendRecordPasswordLoginAlert(t *testing.T) {

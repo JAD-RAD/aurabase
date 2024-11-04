@@ -6,7 +6,7 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/twitch"
 )

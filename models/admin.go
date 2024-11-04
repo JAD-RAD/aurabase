@@ -3,8 +3,8 @@ package models
 import (
 	"errors"
 
-	"github.com/jadd/aurabase/tools/security"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"golang.org/x/crypto/bcrypt"
 )
 

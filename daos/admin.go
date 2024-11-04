@@ -4,9 +4,9 @@ import (
 	"errors"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/tools/list"
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/security"
 )
 
 // AdminQuery returns a new Admin select query.

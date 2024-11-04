@@ -6,7 +6,7 @@ import (
 	"fmt"
 	"testing"
 
-	"github.com/jadd/aurabase/tools/dbutils"
+	"github.com/JAD-RAD/aurabase/tools/dbutils"
 )
 
 func TestParseIndex(t *testing.T) {

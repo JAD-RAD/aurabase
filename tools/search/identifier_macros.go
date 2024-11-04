@@ -4,7 +4,7 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 // note: used primarily for the tests

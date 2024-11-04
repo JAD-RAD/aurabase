@@ -8,10 +8,10 @@ import (
 	"time"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/tools/list"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 func TestNewRecord(t *testing.T) {

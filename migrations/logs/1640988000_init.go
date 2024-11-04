@@ -2,7 +2,7 @@ package logs
 
 import (
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/tools/migrate"
+	"github.com/JAD-RAD/aurabase/tools/migrate"
 )
 
 var LogsMigrations migrate.MigrationsList

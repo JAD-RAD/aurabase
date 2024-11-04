@@ -8,14 +8,14 @@ import (
 	"testing"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/forms/validators"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tools/filesystem"
-	"github.com/jadd/aurabase/tools/rest"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/forms/validators"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tools/filesystem"
+	"github.com/JAD-RAD/aurabase/tools/rest"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 type testDataFieldScenario struct {

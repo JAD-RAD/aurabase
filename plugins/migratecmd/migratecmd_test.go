@@ -7,12 +7,12 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/plugins/migratecmd"
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/plugins/migratecmd"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 func TestAutomigrateCollectionCreate(t *testing.T) {
@@ -72,9 +72,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	m "github.com/jadd/aurabase/migrations"
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/daos"
+	m "github.com/JAD-RAD/aurabase/migrations"
+	"github.com/JAD-RAD/aurabase/models"
 )
 
 func init() {
@@ -249,9 +249,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	m "github.com/jadd/aurabase/migrations"
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/daos"
+	m "github.com/JAD-RAD/aurabase/migrations"
+	"github.com/JAD-RAD/aurabase/models"
 )
 
 func init() {
@@ -504,10 +504,10 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	m "github.com/jadd/aurabase/migrations"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/daos"
+	m "github.com/JAD-RAD/aurabase/migrations"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 func init() {

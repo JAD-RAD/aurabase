@@ -4,12 +4,12 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v5"
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/forms"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/tokens"
-	"github.com/jadd/aurabase/tools/routine"
-	"github.com/jadd/aurabase/tools/search"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/forms"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/tokens"
+	"github.com/JAD-RAD/aurabase/tools/routine"
+	"github.com/JAD-RAD/aurabase/tools/search"
 )
 
 // bindAdminApi registers the admin api endpoints and the corresponding handlers.

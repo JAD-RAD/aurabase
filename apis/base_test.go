@@ -9,9 +9,9 @@ import (
 	"testing"
 
 	"github.com/labstack/echo/v5"
-	"github.com/jadd/aurabase/apis"
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tools/rest"
+	"github.com/JAD-RAD/aurabase/apis"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tools/rest"
 	"github.com/spf13/cast"
 )
 

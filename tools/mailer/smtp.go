@@ -7,7 +7,7 @@ import (
 	"strings"
 
 	"github.com/domodwyer/mailyak/v3"
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/tools/security"
 )
 
 var _ Mailer = (*SmtpClient)(nil)

@@ -10,12 +10,12 @@ import (
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/tools/filesystem"
-	"github.com/jadd/aurabase/tools/list"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/tools/filesystem"
+	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 var requiredErr = validation.NewError("validation_required", "Missing required value")

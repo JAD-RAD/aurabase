@@ -5,9 +5,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/tests"
 )
 
 func TestNew(t *testing.T) {

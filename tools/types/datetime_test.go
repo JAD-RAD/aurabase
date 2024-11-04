@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 func TestNowDateTime(t *testing.T) {

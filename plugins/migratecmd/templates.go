@@ -9,7 +9,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models"
 )
 
 const (
@@ -340,7 +340,7 @@ func (p *plugin) goBlankTemplate() (string, error) {
 
 import (
 	"github.com/pocketbase/dbx"
-	m "github.com/jadd/aurabase/migrations"
+	m "github.com/JAD-RAD/aurabase/migrations"
 )
 
 func init() {
@@ -371,9 +371,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	m "github.com/jadd/aurabase/migrations"
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/daos"
+	m "github.com/JAD-RAD/aurabase/migrations"
+	"github.com/JAD-RAD/aurabase/models"
 )
 
 func init() {
@@ -410,9 +410,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	m "github.com/jadd/aurabase/migrations"
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/daos"
+	m "github.com/JAD-RAD/aurabase/migrations"
+	"github.com/JAD-RAD/aurabase/models"
 )
 
 func init() {
@@ -458,9 +458,9 @@ import (
 	"encoding/json"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	m "github.com/jadd/aurabase/migrations"
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/daos"
+	m "github.com/JAD-RAD/aurabase/migrations"
+	"github.com/JAD-RAD/aurabase/models"
 )
 
 func init() {
@@ -720,15 +720,15 @@ func (p *plugin) goDiffTemplate(new *models.Collection, old *models.Collection) 
 	}
 
 	imports += "\n\t\"github.com/pocketbase/dbx\""
-	imports += "\n\t\"github.com/jadd/aurabase/daos\""
-	imports += "\n\tm \"github.com/jadd/aurabase/migrations\""
+	imports += "\n\t\"github.com/JAD-RAD/aurabase/daos\""
+	imports += "\n\tm \"github.com/JAD-RAD/aurabase/migrations\""
 
 	if strings.Contains(combined, "schema.SchemaField{") {
-		imports += "\n\t\"github.com/jadd/aurabase/models/schema\""
+		imports += "\n\t\"github.com/JAD-RAD/aurabase/models/schema\""
 	}
 
 	if strings.Contains(combined, "types.Pointer(") {
-		imports += "\n\t\"github.com/jadd/aurabase/tools/types\""
+		imports += "\n\t\"github.com/JAD-RAD/aurabase/tools/types\""
 	}
 	// ---
 

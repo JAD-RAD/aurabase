@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/tools/inflector"
-	"github.com/jadd/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/inflector"
+	"github.com/JAD-RAD/aurabase/tools/list"
 )
 
 // ResolverResult defines a single FieldResolver.Resolve() successfully parsed result.

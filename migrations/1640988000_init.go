@@ -6,12 +6,12 @@ import (
 	"runtime"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/models/settings"
-	"github.com/jadd/aurabase/tools/migrate"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/models/settings"
+	"github.com/JAD-RAD/aurabase/tools/migrate"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 var AppMigrations migrate.MigrationsList

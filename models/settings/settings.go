@@ -9,11 +9,11 @@ import (
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
 	"github.com/go-ozzo/ozzo-validation/v4/is"
-	"github.com/jadd/aurabase/tools/auth"
-	"github.com/jadd/aurabase/tools/cron"
-	"github.com/jadd/aurabase/tools/mailer"
-	"github.com/jadd/aurabase/tools/rest"
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/tools/auth"
+	"github.com/JAD-RAD/aurabase/tools/cron"
+	"github.com/JAD-RAD/aurabase/tools/mailer"
+	"github.com/JAD-RAD/aurabase/tools/rest"
+	"github.com/JAD-RAD/aurabase/tools/security"
 )
 
 // SecretMask is the default settings secrets replacement value

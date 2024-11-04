@@ -5,10 +5,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	"github.com/jadd/aurabase/forms/validators"
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tools/filesystem"
-	"github.com/jadd/aurabase/tools/rest"
+	"github.com/JAD-RAD/aurabase/forms/validators"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tools/filesystem"
+	"github.com/JAD-RAD/aurabase/tools/rest"
 )
 
 func TestUploadedFileSize(t *testing.T) {

@@ -9,10 +9,10 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tools/archive"
-	"github.com/jadd/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tools/archive"
+	"github.com/JAD-RAD/aurabase/tools/list"
 )
 
 func TestCreateBackup(t *testing.T) {

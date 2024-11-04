@@ -9,8 +9,8 @@ import (
 	"testing"
 
 	"github.com/labstack/echo/v5"
-	"github.com/jadd/aurabase/tools/rest"
-	"github.com/jadd/aurabase/tools/search"
+	"github.com/JAD-RAD/aurabase/tools/rest"
+	"github.com/JAD-RAD/aurabase/tools/search"
 )
 
 func TestSerialize(t *testing.T) {

@@ -8,16 +8,16 @@ import (
 	"strings"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/forms/validators"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/resolvers"
-	"github.com/jadd/aurabase/tools/dbutils"
-	"github.com/jadd/aurabase/tools/list"
-	"github.com/jadd/aurabase/tools/search"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/forms/validators"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/resolvers"
+	"github.com/JAD-RAD/aurabase/tools/dbutils"
+	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/search"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 var collectionNameRegex = regexp.MustCompile(`^[a-zA-Z0-9][a-zA-Z0-9_]*$`)

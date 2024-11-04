@@ -2,9 +2,9 @@ package migrations
 
 import (
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
 )
 
 // Transform the relation fields to views from non-view collections to json or text fields

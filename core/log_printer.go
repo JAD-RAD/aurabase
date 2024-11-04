@@ -6,8 +6,8 @@ import (
 	"strings"
 
 	"github.com/fatih/color"
-	"github.com/jadd/aurabase/tools/logger"
-	"github.com/jadd/aurabase/tools/store"
+	"github.com/JAD-RAD/aurabase/tools/logger"
+	"github.com/JAD-RAD/aurabase/tools/store"
 	"github.com/spf13/cast"
 )
 

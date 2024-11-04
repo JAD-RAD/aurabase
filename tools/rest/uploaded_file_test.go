@@ -9,7 +9,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jadd/aurabase/tools/rest"
+	"github.com/JAD-RAD/aurabase/tools/rest"
 )
 
 func TestFindUploadedFiles(t *testing.T) {

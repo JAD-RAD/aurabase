@@ -14,8 +14,8 @@ import (
 	"strings"
 
 	"github.com/gabriel-vasile/mimetype"
-	"github.com/jadd/aurabase/tools/inflector"
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/tools/inflector"
+	"github.com/JAD-RAD/aurabase/tools/security"
 )
 
 // FileReader defines an interface for a file resource reader.

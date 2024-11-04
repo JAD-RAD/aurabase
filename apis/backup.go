@@ -6,12 +6,12 @@ import (
 	"path/filepath"
 	"time"
 
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/forms"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/tools/filesystem"
-	"github.com/jadd/aurabase/tools/rest"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/forms"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/tools/filesystem"
+	"github.com/JAD-RAD/aurabase/tools/rest"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"github.com/labstack/echo/v5"
 	"github.com/spf13/cast"
 )

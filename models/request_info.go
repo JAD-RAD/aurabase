@@ -3,7 +3,7 @@ package models
 import (
 	"strings"
 
-	"github.com/jadd/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/models/schema"
 )
 
 const (

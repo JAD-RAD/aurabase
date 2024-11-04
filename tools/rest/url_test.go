@@ -3,7 +3,7 @@ package rest_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/tools/rest"
+	"github.com/JAD-RAD/aurabase/tools/rest"
 )
 
 func TestNormalizeUrl(t *testing.T) {

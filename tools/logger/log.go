@@ -4,7 +4,7 @@ import (
 	"log/slog"
 	"time"
 
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 // Log is similar to [slog.Record] bit contains the log attributes as

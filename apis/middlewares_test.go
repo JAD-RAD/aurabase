@@ -5,8 +5,8 @@ import (
 	"testing"
 
 	"github.com/labstack/echo/v5"
-	"github.com/jadd/aurabase/apis"
-	"github.com/jadd/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/apis"
+	"github.com/JAD-RAD/aurabase/tests"
 )
 
 func TestRequireGuestOnly(t *testing.T) {

@@ -6,7 +6,7 @@ import (
 	"path/filepath"
 	"testing"
 
-	"github.com/jadd/aurabase/tools/archive"
+	"github.com/JAD-RAD/aurabase/tools/archive"
 )
 
 func TestExtractFailure(t *testing.T) {

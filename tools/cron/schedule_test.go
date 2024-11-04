@@ -5,7 +5,7 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jadd/aurabase/tools/cron"
+	"github.com/JAD-RAD/aurabase/tools/cron"
 )
 
 func TestNewMoment(t *testing.T) {

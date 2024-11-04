@@ -3,7 +3,7 @@ package validators_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/forms/validators"
+	"github.com/JAD-RAD/aurabase/forms/validators"
 )
 
 func TestCompare(t *testing.T) {

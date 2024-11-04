@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/jadd/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tests"
 )
 
 func TestHealthAPI(t *testing.T) {

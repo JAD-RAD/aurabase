@@ -3,7 +3,7 @@ package daos
 import (
 	"errors"
 
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models"
 	"github.com/pocketbase/dbx"
 )
 

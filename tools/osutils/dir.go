@@ -5,7 +5,7 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/jadd/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/list"
 )
 
 // MoveDirContent moves the src dir content, that is not listed in the exclide list,

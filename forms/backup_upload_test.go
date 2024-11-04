@@ -6,9 +6,9 @@ import (
 	"testing"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/jadd/aurabase/forms"
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tools/filesystem"
+	"github.com/JAD-RAD/aurabase/forms"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tools/filesystem"
 )
 
 func TestBackupUploadValidateAndSubmit(t *testing.T) {

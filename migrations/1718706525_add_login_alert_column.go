@@ -4,10 +4,10 @@ import (
 	"slices"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/tools/security"
 )
 
 // adds a "lastLoginAlertSentAt" column to all auth collection tables (if not already)

@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/tools/search"
+	"github.com/JAD-RAD/aurabase/tools/search"
 )
 
 func TestFilterDataBuildExpr(t *testing.T) {

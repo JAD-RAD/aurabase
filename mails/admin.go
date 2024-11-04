@@ -4,12 +4,12 @@ import (
 	"fmt"
 	"net/mail"
 
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/mails/templates"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/tokens"
-	"github.com/jadd/aurabase/tools/mailer"
-	"github.com/jadd/aurabase/tools/rest"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/mails/templates"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/tokens"
+	"github.com/JAD-RAD/aurabase/tools/mailer"
+	"github.com/JAD-RAD/aurabase/tools/rest"
 )
 
 // SendAdminPasswordReset sends a password reset request email to the specified admin.

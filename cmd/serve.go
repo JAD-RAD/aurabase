@@ -4,8 +4,8 @@ import (
 	"errors"
 	"net/http"
 
-	"github.com/jadd/aurabase/apis"
-	"github.com/jadd/aurabase/core"
+	"github.com/JAD-RAD/aurabase/apis"
+	"github.com/JAD-RAD/aurabase/core"
 	"github.com/spf13/cobra"
 )
 

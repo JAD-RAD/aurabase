@@ -3,7 +3,7 @@ package types_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 func TestPointer(t *testing.T) {

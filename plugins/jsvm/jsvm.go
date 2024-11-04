@@ -29,10 +29,10 @@ import (
 	"github.com/fsnotify/fsnotify"
 	"github.com/labstack/echo/v5"
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/core"
-	m "github.com/jadd/aurabase/migrations"
-	"github.com/jadd/aurabase/plugins/jsvm/internal/types/generated"
-	"github.com/jadd/aurabase/tools/template"
+	"github.com/JAD-RAD/aurabase/core"
+	m "github.com/JAD-RAD/aurabase/migrations"
+	"github.com/JAD-RAD/aurabase/plugins/jsvm/internal/types/generated"
+	"github.com/JAD-RAD/aurabase/tools/template"
 )
 
 const (

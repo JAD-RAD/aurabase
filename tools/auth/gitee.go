@@ -7,7 +7,7 @@ import (
 	"strconv"
 
 	"github.com/go-ozzo/ozzo-validation/v4/is"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"golang.org/x/oauth2"
 )
 

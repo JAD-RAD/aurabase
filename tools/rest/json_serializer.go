@@ -12,8 +12,8 @@ import (
 	goccy "github.com/goccy/go-json"
 
 	"github.com/labstack/echo/v5"
-	"github.com/jadd/aurabase/tools/search"
-	"github.com/jadd/aurabase/tools/tokenizer"
+	"github.com/JAD-RAD/aurabase/tools/search"
+	"github.com/JAD-RAD/aurabase/tools/tokenizer"
 )
 
 type FieldModifier interface {

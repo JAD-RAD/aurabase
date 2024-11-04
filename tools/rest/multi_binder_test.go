@@ -10,7 +10,7 @@ import (
 	"testing"
 
 	"github.com/labstack/echo/v5"
-	"github.com/jadd/aurabase/tools/rest"
+	"github.com/JAD-RAD/aurabase/tools/rest"
 )
 
 func TestMultiBinderBind(t *testing.T) {

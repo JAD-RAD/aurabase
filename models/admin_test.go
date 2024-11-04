@@ -3,8 +3,8 @@ package models_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 func TestAdminTableName(t *testing.T) {

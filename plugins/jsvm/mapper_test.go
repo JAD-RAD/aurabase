@@ -4,7 +4,7 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/jadd/aurabase/plugins/jsvm"
+	"github.com/JAD-RAD/aurabase/plugins/jsvm"
 )
 
 func TestFieldMapper(t *testing.T) {

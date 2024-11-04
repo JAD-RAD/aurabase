@@ -1,6 +1,6 @@
 package models
 
-import "github.com/jadd/aurabase/tools/types"
+import "github.com/JAD-RAD/aurabase/tools/types"
 
 type BackupFileInfo struct {
 	Key      string         `json:"key"`

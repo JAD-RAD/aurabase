@@ -4,12 +4,12 @@ import (
 	"html/template"
 	"net/mail"
 
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/mails/templates"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/settings"
-	"github.com/jadd/aurabase/tokens"
-	"github.com/jadd/aurabase/tools/mailer"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/mails/templates"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/settings"
+	"github.com/JAD-RAD/aurabase/tokens"
+	"github.com/JAD-RAD/aurabase/tools/mailer"
 )
 
 // @todo remove after the refactoring

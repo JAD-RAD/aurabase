@@ -8,11 +8,11 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tools/subscriptions"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tools/subscriptions"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"github.com/labstack/echo/v5"
 )
 

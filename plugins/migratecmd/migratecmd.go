@@ -23,11 +23,11 @@ import (
 	"time"
 
 	"github.com/AlecAivazis/survey/v2"
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/migrations"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/tools/inflector"
-	"github.com/jadd/aurabase/tools/migrate"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/migrations"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/tools/inflector"
+	"github.com/JAD-RAD/aurabase/tools/migrate"
 	"github.com/spf13/cobra"
 )
 

@@ -3,7 +3,7 @@ package schema_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/models/schema"
 )
 
 func TestNewSchemaAndFields(t *testing.T) {

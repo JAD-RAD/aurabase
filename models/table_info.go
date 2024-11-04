@@ -1,6 +1,6 @@
 package models
 
-import "github.com/jadd/aurabase/tools/types"
+import "github.com/JAD-RAD/aurabase/tools/types"
 
 type TableInfoRow struct {
 	// the `db:"pk"` tag has special semantic so we cannot rename

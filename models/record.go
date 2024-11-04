@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/tools/list"
-	"github.com/jadd/aurabase/tools/security"
-	"github.com/jadd/aurabase/tools/store"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/tools/store"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"github.com/spf13/cast"
 	"golang.org/x/crypto/bcrypt"
 )

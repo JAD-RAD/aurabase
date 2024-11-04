@@ -6,10 +6,10 @@ import (
 	"strings"
 
 	validation "github.com/go-ozzo/ozzo-validation/v4"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/tools/dbutils"
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/tools/dbutils"
+	"github.com/JAD-RAD/aurabase/tools/security"
 	"github.com/pocketbase/dbx"
 )
 

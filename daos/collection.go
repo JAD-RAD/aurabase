@@ -8,9 +8,9 @@ import (
 	"strings"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/tools/list"
 )
 
 // CollectionQuery returns a new Collection select query.

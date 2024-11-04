@@ -8,7 +8,7 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"golang.org/x/oauth2"
 	"golang.org/x/oauth2/vk"
 )

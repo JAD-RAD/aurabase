@@ -4,7 +4,7 @@ import (
 	"net/http"
 	"testing"
 
-	"github.com/jadd/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tests"
 	"github.com/labstack/echo/v5"
 )
 

@@ -4,9 +4,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/settings"
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/settings"
+	"github.com/JAD-RAD/aurabase/tools/security"
 )
 
 // FindSettings returns and decode the serialized app settings param value.

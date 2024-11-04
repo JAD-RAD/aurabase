@@ -3,8 +3,8 @@ package tokens_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tokens"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tokens"
 )
 
 func TestNewAdminAuthToken(t *testing.T) {

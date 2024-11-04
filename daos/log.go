@@ -3,8 +3,8 @@ package daos
 import (
 	"time"
 
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"github.com/pocketbase/dbx"
 )
 

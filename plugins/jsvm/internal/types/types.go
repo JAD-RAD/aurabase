@@ -10,9 +10,9 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/plugins/jsvm"
-	"github.com/jadd/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/plugins/jsvm"
+	"github.com/JAD-RAD/aurabase/tools/list"
 	"github.com/pocketbase/tygoja"
 )
 
@@ -1092,14 +1092,14 @@ func main() {
 			"github.com/labstack/echo/v5/middleware":            {"Gzip", "BodyLimit"},
 			"github.com/go-ozzo/ozzo-validation/v4":             {"Error"},
 			"github.com/pocketbase/dbx":                         {"*"},
-			"github.com/jadd/aurabase/tools/security":   {"*"},
-			"github.com/jadd/aurabase/tools/filesystem": {"*"},
-			"github.com/jadd/aurabase/tools/template":   {"*"},
-			"github.com/jadd/aurabase/tokens":           {"*"},
-			"github.com/jadd/aurabase/mails":            {"*"},
-			"github.com/jadd/aurabase/apis":             {"*"},
-			"github.com/jadd/aurabase/forms":            {"*"},
-			"github.com/jadd/aurabase":                  {"*"},
+			"github.com/JAD-RAD/aurabase/tools/security":   {"*"},
+			"github.com/JAD-RAD/aurabase/tools/filesystem": {"*"},
+			"github.com/JAD-RAD/aurabase/tools/template":   {"*"},
+			"github.com/JAD-RAD/aurabase/tokens":           {"*"},
+			"github.com/JAD-RAD/aurabase/mails":            {"*"},
+			"github.com/JAD-RAD/aurabase/apis":             {"*"},
+			"github.com/JAD-RAD/aurabase/forms":            {"*"},
+			"github.com/JAD-RAD/aurabase":                  {"*"},
 			"path/filepath":                                     {"*"},
 			"os":                                                {"*"},
 			"os/exec":                                           {"Command"},

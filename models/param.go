@@ -1,7 +1,7 @@
 package models
 
 import (
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 )
 
 var _ Model = (*Param)(nil)

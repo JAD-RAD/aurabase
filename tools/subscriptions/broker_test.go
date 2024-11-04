@@ -3,7 +3,7 @@ package subscriptions_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/tools/subscriptions"
+	"github.com/JAD-RAD/aurabase/tools/subscriptions"
 )
 
 func TestNewBroker(t *testing.T) {

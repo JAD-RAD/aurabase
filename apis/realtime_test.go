@@ -7,15 +7,15 @@ import (
 	"testing"
 	"time"
 
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tools/hook"
-	"github.com/jadd/aurabase/tools/subscriptions"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tools/hook"
+	"github.com/JAD-RAD/aurabase/tools/subscriptions"
 	"github.com/labstack/echo/v5"
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/apis"
+	"github.com/JAD-RAD/aurabase/apis"
 )
 
 func TestRealtimeConnect(t *testing.T) {

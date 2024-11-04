@@ -12,7 +12,7 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/jadd/aurabase/tools/filesystem"
+	"github.com/JAD-RAD/aurabase/tools/filesystem"
 )
 
 func TestFileSystemExists(t *testing.T) {

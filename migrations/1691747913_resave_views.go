@@ -2,8 +2,8 @@ package migrations
 
 import (
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/models"
 )
 
 // Resave all view collections to ensure that the proper id normalization is applied.

@@ -7,13 +7,13 @@ import (
 	"regexp"
 	"strings"
 
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/tools/inflector"
-	"github.com/jadd/aurabase/tools/list"
-	"github.com/jadd/aurabase/tools/security"
-	"github.com/jadd/aurabase/tools/tokenizer"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/tools/inflector"
+	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/tools/tokenizer"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"github.com/pocketbase/dbx"
 )
 

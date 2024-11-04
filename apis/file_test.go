@@ -10,12 +10,12 @@ import (
 	"sync"
 	"testing"
 
-	"github.com/jadd/aurabase/apis"
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/daos"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/tests"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/apis"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/daos"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"github.com/labstack/echo/v5"
 )
 

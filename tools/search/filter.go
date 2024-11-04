@@ -9,8 +9,8 @@ import (
 
 	"github.com/ganigeorgiev/fexpr"
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/tools/security"
-	"github.com/jadd/aurabase/tools/store"
+	"github.com/JAD-RAD/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/tools/store"
 	"github.com/spf13/cast"
 )
 

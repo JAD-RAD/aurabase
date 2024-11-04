@@ -8,13 +8,13 @@ import (
 	"strings"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/models/schema"
-	"github.com/jadd/aurabase/tools/dbutils"
-	"github.com/jadd/aurabase/tools/inflector"
-	"github.com/jadd/aurabase/tools/list"
-	"github.com/jadd/aurabase/tools/search"
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models/schema"
+	"github.com/JAD-RAD/aurabase/tools/dbutils"
+	"github.com/JAD-RAD/aurabase/tools/inflector"
+	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/search"
+	"github.com/JAD-RAD/aurabase/tools/security"
 )
 
 // maxNestedRels defines the max allowed nested relations depth.

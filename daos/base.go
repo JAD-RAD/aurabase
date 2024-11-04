@@ -9,7 +9,7 @@ import (
 	"time"
 
 	"github.com/pocketbase/dbx"
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models"
 )
 
 // New creates a new Dao instance with the provided db builder

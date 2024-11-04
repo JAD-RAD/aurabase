@@ -11,8 +11,8 @@ import (
 	"testing"
 
 	"github.com/labstack/echo/v5"
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/tests"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/tests"
 	"gocloud.dev/blob"
 )
 

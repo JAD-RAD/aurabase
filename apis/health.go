@@ -4,7 +4,7 @@ import (
 	"net/http"
 
 	"github.com/labstack/echo/v5"
-	"github.com/jadd/aurabase/core"
+	"github.com/JAD-RAD/aurabase/core"
 )
 
 // bindHealthApi registers the health api endpoint.

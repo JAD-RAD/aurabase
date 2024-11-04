@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"testing"
 
-	"github.com/jadd/aurabase/tools/search"
+	"github.com/JAD-RAD/aurabase/tools/search"
 )
 
 func TestSortFieldBuildExpr(t *testing.T) {

@@ -13,7 +13,7 @@ import (
 	"strings"
 
 	"github.com/golang-jwt/jwt/v4"
-	"github.com/jadd/aurabase/tools/types"
+	"github.com/JAD-RAD/aurabase/tools/types"
 	"github.com/spf13/cast"
 	"golang.org/x/oauth2"
 )

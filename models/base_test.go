@@ -3,7 +3,7 @@ package models_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/models"
+	"github.com/JAD-RAD/aurabase/models"
 )
 
 func TestBaseModelHasId(t *testing.T) {

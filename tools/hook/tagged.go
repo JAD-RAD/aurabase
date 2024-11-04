@@ -1,7 +1,7 @@
 package hook
 
 import (
-	"github.com/jadd/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/list"
 )
 
 // Tagger defines an interface for event data structs that support tags/groups/categories/etc.

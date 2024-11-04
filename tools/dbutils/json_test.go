@@ -3,7 +3,7 @@ package dbutils_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/tools/dbutils"
+	"github.com/JAD-RAD/aurabase/tools/dbutils"
 )
 
 func TestJsonEach(t *testing.T) {

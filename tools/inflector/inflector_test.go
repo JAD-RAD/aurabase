@@ -3,7 +3,7 @@ package inflector_test
 import (
 	"testing"
 
-	"github.com/jadd/aurabase/tools/inflector"
+	"github.com/JAD-RAD/aurabase/tools/inflector"
 )
 
 func TestUcFirst(t *testing.T) {

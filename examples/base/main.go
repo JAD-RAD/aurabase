@@ -7,12 +7,11 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jadd/aurabase"
-	"github.com/jadd/aurabase/apis"
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/plugins/ghupdate"
-	"github.com/jadd/aurabase/plugins/jsvm"
-	"github.com/jadd/aurabase/plugins/migratecmd"
+	"github.com/JAD-RAD/aurabase/apis"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/plugins/ghupdate"
+	"github.com/JAD-RAD/aurabase/plugins/jsvm"
+	"github.com/JAD-RAD/aurabase/plugins/migratecmd"
 )
 
 func main() {

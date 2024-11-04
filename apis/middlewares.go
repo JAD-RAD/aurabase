@@ -9,12 +9,12 @@ import (
 	"strings"
 	"time"
 
-	"github.com/jadd/aurabase/core"
-	"github.com/jadd/aurabase/models"
-	"github.com/jadd/aurabase/tokens"
-	"github.com/jadd/aurabase/tools/list"
-	"github.com/jadd/aurabase/tools/routine"
-	"github.com/jadd/aurabase/tools/security"
+	"github.com/JAD-RAD/aurabase/core"
+	"github.com/JAD-RAD/aurabase/models"
+	"github.com/JAD-RAD/aurabase/tokens"
+	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/JAD-RAD/aurabase/tools/routine"
+	"github.com/JAD-RAD/aurabase/tools/security"
 	"github.com/labstack/echo/v5"
 	"github.com/spf13/cast"
 )
