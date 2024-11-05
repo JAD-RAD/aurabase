@@ -1,4 +1,4 @@
-package pocketbase
+package aurabase
 
 import (
 	"io"
@@ -8,10 +8,10 @@ import (
 	"strings"
 	"syscall"
 
-	"github.com/fatih/color"
 	"github.com/JAD-RAD/aurabase/cmd"
 	"github.com/JAD-RAD/aurabase/core"
 	"github.com/JAD-RAD/aurabase/tools/list"
+	"github.com/fatih/color"
 	"github.com/spf13/cobra"
 )
 

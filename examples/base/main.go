@@ -7,6 +7,7 @@ import (
 	"strings"
 	"time"
 
+	"github.com/JAD-RAD/aurabase"
 	"github.com/JAD-RAD/aurabase/apis"
 	"github.com/JAD-RAD/aurabase/core"
 	"github.com/JAD-RAD/aurabase/plugins/ghupdate"
@@ -15,7 +16,7 @@ import (
 )
 
 func main() {
-	app := pocketbase.New()
+	app := aurabase.New()
 
 	// ---------------------------------------------------------------
 	// Optional plugin flags:
